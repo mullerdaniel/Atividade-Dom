@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(194, 226, 255);
+}
+
+.caixa-de-texto {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 65px;
+    width: 120px;
+    border: 2px solid black; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#texto {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #007bff;
+    margin: 0;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #090086;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.botao-aumentar button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgb(134, 255, 130);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botao-aumentar button:hover {
+    transform: scale(1.05);
+}
+
+.botao-diminuir button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgb(255, 117, 99);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botao-diminuir button:hover {
+    transform: scale(1.05);
+}
